@@ -1,0 +1,48 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "firstCRUDGO",
+    "collectionId": "016771b9-efd2-4217-9b94-a481c8e5e8dc",
+    "dateExported": "2024-07-31T02:57:53.127Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "dd58b53a-9c17-497f-894b-8f966c0e806a",
+            "colId": "016771b9-efd2-4217-9b94-a481c8e5e8dc",
+            "containerId": "",
+            "name": "getFirstGO",
+            "url": "http://localhost:8000/personas",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-07-31T02:57:23.527Z",
+            "modified": "2024-07-31T02:57:23.527Z",
+            "headers": []
+        },
+        {
+            "_id": "55cf9d91-8aef-477c-8c4a-9d68efa542d3",
+            "colId": "016771b9-efd2-4217-9b94-a481c8e5e8dc",
+            "containerId": "",
+            "name": "POSTFIRStGO",
+            "url": "http://localhost:8000/personas",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-07-31T02:57:32.125Z",
+            "modified": "2024-07-31T02:57:32.125Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "edad",
+                    "value": "",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"ID\": 1,\n  \"Nombre\": \"Pepito\",\n  \"Edad\": 34\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "hFrdY_P1ZzJg1JhEo_908T-_UbvkKQBSuYh7HBgI5hPxklEwnJ_sDZ1R_DaHXjmiMoLePGkRHnAJco8qWfDYJA"
+}
